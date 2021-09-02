@@ -1,9 +1,10 @@
 
 body{
-  background-color: #AAC0AA;
+  background-color: #AAC0AA; /* page background color */
   margin: 0;
 }
 
+ /* header's background and position */
 .headerBackground{
   background-color: whitesmoke;
   height:130px;
@@ -21,6 +22,7 @@ header h1, h2{
   font-family: 'Courier New', Courier, monospace;
 }
 
+
 img{
   display: block;
   margin-left: auto;
@@ -28,7 +30,8 @@ img{
   padding-top: 150px;
 }
 
-.center {
+ /* make all the things in container to be center*/
+.center {     
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -42,6 +45,7 @@ p{
  padding: 2px 0px 0px 0px;
 }
 
+ /* footer background color and position */
 footer{
     position:bottom;
     bottom:0px;
