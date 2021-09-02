@@ -1,12 +1,23 @@
+
 body{
   background-color: #AAC0AA;
+  margin: 0;
 }
+
+.headerBackground{
+  background-color: whitesmoke;
+  height:130px;
+  width:100%; 
+  top: 0px;
+  position: absolute;
+}
+
 header{
   text-align: center;
   color: #A18276;
 }
 
-header h1{
+header h1, h2{
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -14,6 +25,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 150px;
 }
 
 .center {
@@ -22,7 +34,7 @@ img{
   padding: 10px;
 }
 
-h2, h3, p, li{
+h3, p, li{
       font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -36,5 +48,5 @@ footer{
     height:30px;
     width:100%;
   text-align: center;
-  background-color: #A18276;
+  background-color: whitesmoke;
 }
